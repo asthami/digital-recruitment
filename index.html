@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recruitment Solution</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+</head>
+<body>
+ 
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li class="signup"><a href="login.html">Sign In</a></li>
+            <li class="register"><a href="register.html">Register</a></li>
+          </ul>
+        </nav>
+        </header>
+    
+  
+  <section>
+    <div class="container">
+        <div class="intro">
+            <h1><span class="word">Transform the way</span>
+            
+        <span class="word">You recruit</span>
+      </h1>
+        <div class="introwrite">
+            
+            It  is the ultimate digital recruitment solution<br> designed to
+            revolutionize the hiring process for MNCs.<br>
+             Say goodbye to traditional recruitment hassles and 
+             welcome<br> a seamless and efficient experience that connects you with top talent effortlessly.
+             <div class="intro-im">
+             <img src="https://img.freepik.com/free-vector/human-resources-hr-typographic-header-idea-recruitment-job-management-hr-manager-interviewing-job-candidate-flat-vector-illustration_613284-1240.jpg?w=2000" loading="lazy" width="600" alt="" class="intro-img">
+             
+            </div>
+        </div>
+    </div>
+    <div class="trust">
+        <h4>Trusted by 10,000 recruitment teams </h4>
+        <div class="logo">
+            <img src="https://global-uploads.webflow.com/627cdcca8bc0d25e49b26705/62af292bef1a0b91c739c0ad_microsoft.png" loading="lazy" width="80" alt="" class="logos-image">
+            <img src="https://global-uploads.webflow.com/627cdcca8bc0d25e49b26705/62af2ec14bde0e495f5dca51_lotus-s.png" loading="lazy" width="85" alt="" class="logos-image">
+            <img src="https://global-uploads.webflow.com/627cdcca8bc0d25e49b26705/62af2cf482ada21769a00414_axiata.png" loading="lazy" width="80" alt="" class="logos-image">
+            <img src="https://global-uploads.webflow.com/627cdcca8bc0d25e49b26705/63621a456780d47b0695ae5a_KPMG-logo.png" loading="lazy" width="80" alt="" class="logos-image">
+            <img src="https://global-uploads.webflow.com/627cdcca8bc0d25e49b26705/62af292bc5d9c1b04e761a25_manpower.png" loading="lazy" width="80" alt="" class="logos-image">
+            <img src="https://global-uploads.webflow.com/627cdcca8bc0d25e49b26705/62af292bd831074734db8084_michael-page.png" loading="lazy" width="80" alt="" class="logos-image"> 
+            <img src="https://global-uploads.webflow.com/627cdcca8bc0d25e49b26705/63621a457759fb439edd831f_Ogilvy-logo.png" loading="lazy" width="80" alt="" class="logos-image">
+            <img src="https://global-uploads.webflow.com/627cdcca8bc0d25e49b26705/62af292a3249a958f4ac7635_decathlon.png" loading="lazy" width="80" alt="" class="logos-image">
+        </div>
+    </div>
+    <div class="first">
+        <h2>Get your jobs <br>in front of million of <br>condidates</h2>
+        <div class="firstintro">
+         
+        <img src="https://assets-global.website-files.com/6127d83f257132e4fe0bddc6/620121b2144cb5ad8da264dc_breezyhr-attract-2-p-800.webp" loading="lazy" width="500" alt="" class="first-image">
+        <h3>Share your job openings on 2,500+ free and premium channels, including local, global, and specialized job platforms such as Indeed, LinkedIn, Monster, CareerJet, JobStreet, and many more.</h3>
+    </div>
+    </div>
+    <div class="second">
+        <h2>AI-powered<br>recommendations</h2>
+        <div class="firstintro">
+            <div class="write">
+         <h4>
+            AI Engine simplifies the whole hiring process by suggesting <br>the best candidates for a given job while <br>automating redundant tasks.
+
+        <h3>Matching recommendations:</h3> <h4>Score candidates' profiles based on job requirements to facilitate your screening process.</h4>
+
+<h3>Candidates' profiles enrichment:</h3> <h4>Enrich candidates' profiles with LinkedIn and other social media data for better matching recommendations.</h4>
+         </h4>
+         </div>
+        <img src="https://global-uploads.webflow.com/627cdcca8bc0d25e49b26705/62cf9358cfac75100a827f72_E-1-p-800.webp" loading="lazy" width="500" alt="" class="first-image">
+        
+    </div>
+    </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2023 Recruitment Solution. All rights reserved.</p>
+  </footer>
+  <script>
+    window.addEventListener('scroll',(event) => {
+         var reveals = document.querySelectorAll(".reveal");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+    
+});
+  function reveal() {
+   
+    var reveals = document.querySelectorAll(".reveal");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  
+</script>
+</body>
+</html>
